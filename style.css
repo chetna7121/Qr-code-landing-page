@@ -33,10 +33,15 @@
    .card {
      max-width: 80%;
      height: auto;
-     margin-top: 20%;
-     margin-left: 10%;
+     margin-top: 60%;
+     margin-left:7%;
+     background-color: #ffffff;
    }
    .card img {
      height: 40%;
+     max-width: 100%;
    }
+   body {
+       background-color: #c5d8dd;
+    }
  }
