@@ -29,3 +29,14 @@
  body {
     background-color: #c5d8dd;
  }
+ @media only screen and (max-width: 600px) {
+   .card {
+     max-width: 80%;
+     height: auto;
+     margin-top: 20%;
+     margin-left: 10%;
+   }
+   .card img {
+     height: 40%;
+   }
+ }
