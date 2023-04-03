@@ -1,47 +1,74 @@
 .card {
-    background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 15%;
-    height: 350px;
-    position: relative;
-    margin-top: 40%;
-    margin-left: 40%;
-    transform: translateY(-50%);
-    text-align: center;
-     }
-     .card img {
-      
-            width: 100%;
-            border-radius: 15px;
-            height: 60%; 
-            display: block;
-            margin: 0 auto; 
-            padding: 0 auto; 
-          }
-          .card p{
-          color: #808080;
-          font-size: small;
-          }
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 15%;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  height: 60%; 
+  display: block;
+  margin: 0 auto; 
+  padding: 0 auto; 
+}
+
+.card p {
+  color: #808080;
+  font-size: small;
+}
+
+body {
+  background-color: #c5d8dd;
+}
+
+@media only screen and (max-width: 768px) {
+ .card {
+   max-width: 50%;
+   height: auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #ffffff;
+ }
+ 
+ .card img {
+   height: 40%;
+   max-width: 100%;
+ }
+ 
  body {
-    background-color: #c5d8dd;
+     background-color: #c5d8dd;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+ .card {
+   max-width: 80%;
+   height: auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #ffffff;
  }
- @media only screen and (max-width: 600px) {
-   .card {
-     max-width: 80%;
-     height: auto;
-     margin-top: 95%;
-     margin-left:4%;
-     background-color: #ffffff;
-   }
-   .card img {
-     height: 40%;
-     max-width: 100%;
-   }
-   body {
-       background-color: #c5d8dd;
-    }
+ 
+ .card img {
+   height: 30%;
+   max-width: 100%;
  }
+ 
+ body {
+     background-color: #c5d8dd;
+  }
+}
